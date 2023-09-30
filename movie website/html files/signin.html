@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+</head>
+<body>
+    <form onsubmit="login(event)">
+        <h1>Sign in</h1>
+        <div class="name">
+            <input type="email" id="email" name="email" placeholder="Email" required><i class="fa fa-envelope"></i><br>
+        </div>
+        <div class="pass">
+            <input type="password" id="password" name="password" placeholder="Password" required><i class="fa fa-lock"></i><br>
+        </div>
+        <p id="forgot">Forgot password?</p>
+        <button type="submit">Sign in</button>
+        <p>Don't have an account? <a href="signup.html">create account</a></p>
+    </form>
+    <script src="/Javacript files/signin.js" type = 'module'></script>
+</body>
+</html>

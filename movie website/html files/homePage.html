@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href ='/cssfiles/style.css' rel ='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+
+    <div class="nav">
+        <form id = 'form'>
+            <input type = 'text' id = 'search' placeholder= "movie name" class ="search">
+            <button type="button" id="searcbtn" onclick="searchMovies()">Search</button>
+        </form>
+        <ul>
+            <li id="userDetails"><i class="fa fa-user"></i><span id="userName"></span><i class="fa-solid fa-angle-right"></i></li>
+            <a href="signin.html"><li id="loginOrSignup">Sign In/Sign Up</li></a>
+            <li id="logoutbtn">Log Out</li>
+        </ul>
+    </div>
+
+    <hr>
+    </header>
+    <div class = main style="display: flex; width:100%; overflow:scroll">
+    <main id = "main" style="display: flex;">
+        <div class="movie">
+            <img src = '' alt = ''>
+
+            <div class="movie-info">
+                <h4>Movie Title</h4>
+                <span class = "rating">10.0</span>
+            </div>
+
+            <div class ="overview">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ullam perspiciatis quibusdam architecto quis molestiae inventore? Dolore dolor esse eaque.
+            </div>
+        </div>
+    </main>
+
+</div>
+<script src="user.js" type="module"></script>
+<script src="/Javacript files/app.js"></script>
+</body>
+</html>
